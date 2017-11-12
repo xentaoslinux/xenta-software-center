@@ -1,0 +1,41 @@
+Source: xenta-software-center
+Section: python
+Priority: extra
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>=9),
+               autotools-dev,
+               python (>= 2.6.6-3~),
+               intltool,
+               libglib2.0-dev
+X-Python-Version: >= 2.6
+Standards-Version: 3.9.7
+Homepage: https://github.com/xentaos/xenta-software-center
+Vcs-Browser: https://github.com/xentaos/xenta-software-center.git
+
+Package: xenta-software-center
+Architecture: all
+Depends: ${misc:Depends},
+	${python:Depends},
+	python-apt,
+	python-gi | python-gobject,
+	gir1.2-gtk-3.0,
+	gir1.2-notify-0.7,
+	python-pysqlite2,
+	python-aptdaemon,
+	python-aptdaemon.gtk3widgets,
+	python-xdg,
+	app-install-data
+Description: Paket Software Center Xenta OS.
+ Turunan dari Lubuntu SOftware Center.
+ Utilitas untuk browsing, menginstal, menghapus aplikasi pada Xenta OS
+ Xenta Software Center memungkinkan Anda menjelajah dan menginstal ribuan
+ aplikasi yang tersedia untuk Xenta OS. Anda bisa melihat yang tersedia
+ aplikasi berdasarkan kategori, atau pencarian dengan cepat berdasarkan nama atau deskripsi.
+ Anda juga bisa memeriksa aplikasi yang telah terinstal, dan hapus
+ yang tidak Anda butuhkan lagi.
+ .
+ Pusat ini terutama dioptimalkan untuk Xenta OS, namun Anda memiliki akses ke
+ aplikasi gratis yang sama dari pada Xenta Software Center.
+ .
+ Untuk menginstal atau menghapus perangkat lunak menggunakan Pusat, Anda memerlukan administrator
+ akses di komputer

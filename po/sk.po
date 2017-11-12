@@ -1,0 +1,639 @@
+# Slovak translation for lubuntu-software-center
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2014-08-12 13:28+0000\n"
+"Last-Translator: Juraj Salus <jurajsalus@gmail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-08-13 06:34+0000\n"
+"X-Generator: Launchpad (build 17156)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Centrum softvéru Lubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Centrum softvéru"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Dovolí vám vybrať si z tisícov aplikácií dostupných pre Lubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+"Zdroje;PPA;Inštalovať;Odinštalovať;Odstrániť;Katalóg;Obchod;Aplikácie;Light;B"
+"alík;"
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+"Prosím nainštalujte balík app-install-data, centrum sofvéru Lubuntu nebude "
+"bez neho pracovať v režime Začiatočník"
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "zobrazené balíky"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Nainštalované"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Vybraný balík "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Pridané do košíka"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Pridať do košíka"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Odstrániť zo systému"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Hľadať v nainštalovaných"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Hľadať v"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (vyžiadal "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "neznámy"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Vložte aplikácie do košíka pre ich nainštalovanie"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Košík"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "balík označený"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "sa stiahne"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "sa nainštaluje"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "balíky"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Dostupné kategórie"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Vyberte kategóriu"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Chyba"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Hodnotenia"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Veľkosť inštalačného balíka:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Veľkosť po inštalácii:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Verzia:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Informácie o"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Nastavenia Centra softvéru Lubuntu"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Zdroje softvéru"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Hlavné"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Režim pre expertov"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Výkon"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "Zobraziť ikony"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Sťahovať náhľady"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Skontrolovať pripojenie pri spustení"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "Žiadne dostupné hodnotenia"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Získať softvér"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Nainštalovaný softvér"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Odľahčené, ale užívateľsky prístupné Centrum softvéru pre Lubuntu"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Zobraziť aspoň 20 výsledkov"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Zobraziť všetky výsledky"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Popis"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Skontrolovať hodnotenia"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "Žiadne výsledky"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Detaily o balíku"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Pridať/Odstrániť"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "Hľadať vo všetkých kategóriách"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Inštalovať balíky"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Zrušiť"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Balík"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Stiahne sa"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Nainštaluje sa"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Verzia"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "Poslať náhľad"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Hľadať balík..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Copyright © 2011 tím Lubuntu"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Centrum softvéru pre projekt Lubuntu"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Občas keď odstránite aplikáciu, konfiguračné súbory zostanú. Kliknite na "
+"toto tlačítko pre ich odstránenie"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Občas niektoré aplikácie potrebujú ďaľšie balíky aby fungovali správne, pri "
+"odstránení týchto aplikácií však balíky zostávajú. Kliknite na toto tlačítko "
+"pre odstránenie nepoužívaných balíkov"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Keď inštalujete aplikáciu, súbory potrebné na inštaláciu sa stiahnu na "
+"lokálny počítač. Kliknite na toto tlačítko pre odstránenie nepotrebných "
+"balíkov"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Súbor"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_Upraviť"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Vlastnosti softvéru"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Pomocník"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Domov"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Vyčistiť disk"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Aktualizovať zoznam aplikácií. Kliknutím\n"
+"na toto tlačítko sa stiahne najnovší zoznam\n"
+"aplikácií"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Predvoľby"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "počítam balíky..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "strana 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "stĺpec"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Žiadne výsledky\n"
+"Chcete hľadať vo všetkých kategóriách?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Žiadne výsledky"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "strana 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "strana 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb na stiahnutie"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Nainštalovať balíky"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Veľkosť sťahovania"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Odstrániť <package> z košíka"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "Strana 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "popis"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "tlačidlo"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Žiadny náhľad\n"
+"Skontrolujte pripojenie k Internetu"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Kliknutím zväčšíte"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "strana 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Žiadne konfiguračné súbory"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Staré konfiguračné súbory"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Žiadne stiahnuté súbory"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Stiahnuté súbory"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Vyčistiť disk"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Vyčistiť root Kôš"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+"Kôš užívateľa root (v priečinku /root)\n"
+"môže byť plný starých súborov, jeho vyčistením\n"
+"často získate viac voľného miesta na disku"
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Vyčistiť cache náhľadov"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+"Keď otvoríte priečinok s obrázkami,\n"
+"náhľady sa vytvoria automaticky a uložia\n"
+"do priečinku hide vo vašom home.\n"
+"Kliknite tu pre vyčistenie priečinka\n"
+"(dôležité súbory nebudú zmazané)"
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Vyčistiť nastavenia"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Vyčistiť vyrovnávaciu pamäť"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Šetriť miesto na disku"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "strana 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Režim Začiatočník"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Len ikony"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Len text"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Text pod ikonami"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Text vedľa ikon"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Režim zobrazenia"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Vyberte si režim, ktorý Vám viac vyhovuje. V režime Začiatočník sa zobrazia "
+"len skutočné aplikácie, v režime Pokročilý sa zobrazia balíky s knižnicami a "
+"nástrojmi pre príkazový riadok."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Použiť databázu balíkov"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Rozhranie"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Vzhľad Lišty nástrojov"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Vyberte vzhľad Lišty nástrojov"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Zobraziť Lištu Menu"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Zobraziť Lištu Status"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Nástroje"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Univerzálny prístup"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Zvuk & Video"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Hry"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Grafika"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Vzdelávanie"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Veda a inžinierstvo"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Systém"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Nástroje pre vývojárov"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Témy a vylepšenia"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Písma"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Kancelária"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Všetko"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "Aplikácie sú úspešne odstránené"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "Aplikácie sú úspešne nainštalované"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "Spojenie nenájdené, nemôžete nainštalovať \n"
+#~ " aplikácie, ale môžete ich prezerať"
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "Prosím nainštalujte balík app-install-data, centrum softvéru bez neho nebude "
+#~ "pracovať v režime začiatočník"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "Kôš užívateľa root (nachádza sa v /root)\n"
+#~ "môže byť zaplnený starými a nepotrebnými\n"
+#~ "súbormi, ich odstránením často získate\n"
+#~ "viac miesta na disku"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "Pri otvorení priečinka s obrázkami sú\n"
+#~ "dynamicky vytvárané náhľady, ktoré sa\n"
+#~ "ukladajú do skrytého priečinka vo vašom\n"
+#~ "/home. Kliknite tu pre vyčistenie tohto\n"
+#~ "priečinka (žiadne dôležité údaje nebudú\n"
+#~ "zmazané)"

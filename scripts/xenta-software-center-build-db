@@ -1,0 +1,219 @@
+#!/usr/bin/env python
+# -*- coding:UTF-8 -*-
+#       Copyright (c)   Dindin Hernawan <root@dev.xentaos.org>
+#                       Stephen Smally <stephen.smally@gmail.com>
+#
+#       This program is free software; you can redistribute it and/or modify
+#       it under the terms of the GNU General Public License as published by
+#       the Free Software Foundation; either version 2 of the License, or
+#       (at your option) any later version.
+#       This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#       You should have received a copy of the GNU General Public License
+#       along with this program; if not, write to the Free Software
+#       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#       MA 02110-1301, USA.
+#
+
+usage = '''
+Build a sqlite3-based database from the given directory of desktop files
+Usage: xenta-software-center-build-db [DB_PATH] [DIRECTORY] [CATEGORYFILE]'''
+
+import sqlite3
+import sys
+import os
+from xdg import DesktopEntry as DE
+import xdg
+import apt_pkg
+from ConfigParser import RawConfigParser
+import platform
+
+arch_dict = {
+    "x86_64": "amd64",
+    "i686": "i386",
+    "ppc": "powerpc",
+    "ppc64": "powerpc",
+    "armv7l": "armhf"
+}
+
+arch = arch_dict[platform.machine()]
+
+if len(sys.argv) < 4:
+    print(usage)
+    sys.exit()
+
+database = sys.argv[1]
+base_folder = sys.argv[2]
+tags_file = open(sys.argv[3], "r")
+
+if os.path.exists(database):
+    os.remove(database)
+
+
+print("Creating package database in %s" % database)
+
+db = sqlite3.Connection(database)
+cursor = db.cursor()
+
+aiddir = os.listdir(base_folder)
+
+
+def tag_in_cat(tag):
+    for (index, tags) in app_tags:
+        if tag in tags:
+            return index
+
+
+def get_pkg_depends(pkg):
+    depends_list = []
+    rec = []
+    if not (cache[pkg].version_list == []) and (depcache.get_candidate_ver(
+            cache[pkg]) is not None):
+        version = depcache.get_candidate_ver(cache[pkg])
+        try:
+            depends_list = version.depends_list_str["Depends"]
+        except:
+            depends_list = []
+        try:
+            rec = version.depends_list_str["Recommends"]
+        except:
+            rec = []
+
+    elif not cache[pkg].provides_list == []:
+        for pkgs in cache[pkg].provides_list:
+            version = pkgs[2]
+            try:
+                depends_list = version.depends_list_str["Depends"]
+            except:
+                depends_list = []
+            try:
+                rec = version.depends_list_str["Recommends"]
+            except:
+                rec = []
+    return(depends_list, rec)
+
+packages = {}
+
+apt_pkg.init()
+cache = apt_pkg.Cache()
+depcache = apt_pkg.DepCache(cache)
+infos = apt_pkg.PackageRecords(cache)
+
+for item in aiddir:
+    if item.partition(".desktop")[-2] == ".desktop":
+        try:
+            single_pkg = DE.DesktopEntry(base_folder+item)
+        except xdg.Exceptions.ParsingError:
+            print("fail to parse %s" % item)
+        except ParsingError:
+            print("fail to parse %s" % item)
+        name = single_pkg.getName()
+        pkg = single_pkg.get("X-AppInstall-Package")
+        icon = single_pkg.get("Icon")
+        categs = single_pkg.getCategories()
+        if categs == []:
+            categs = [u"Other"]
+        comment = single_pkg.get("Comment")
+        dep_list = []
+        rec_list = []
+        if (pkg in cache) and (cache[pkg].has_versions):
+            try:
+                deps = get_pkg_depends(pkg)
+                for items in deps[0]:
+                    dep_list.append(items[0][0])
+                for items in deps[1]:
+                    rec_list.append(items[0][0])
+                ver = depcache.get_candidate_ver(cache[pkg])
+                infos.lookup(ver.translated_description.file_list[0])
+                desc = infos.long_desc
+                if comment == u'':
+                    comment = infos.short_desc.decode("UTF-8").capitalize()
+                packages[pkg] = [
+                    categs,
+                    name.capitalize(),
+                    comment,
+                    icon,
+                    desc,
+                    ";".join(dep_list),
+                    ";".join(rec_list)
+                ]
+            except AttributeError: pass
+
+        else:
+            print("%s: package not found" % pkg)
+
+app_tags = {}
+cat_parser = RawConfigParser()
+cat_parser.readfp(tags_file)
+cursor.execute(
+    "CREATE TABLE tables(id, contains, showboth, name, comment, icon)")
+for section in cat_parser.sections():
+    cursor.execute("INSERT INTO tables VALUES (?, ?, ?, ?, ?, ?)", (
+        section,
+        cat_parser.get(section, "contains"),
+        cat_parser.get(section, "showboth"),
+        cat_parser.get(section, "name"),
+        cat_parser.get(section, "comment"),
+        cat_parser.get(section, "icon")
+    ))
+    categ_string = "CREATE TABLE %s(name, pkg_name, tags, comment, icon, \
+        desc, deps, recs, ID)" % section
+    print("Creating table %s" % section)
+    cursor.execute(categ_string)
+    app_tags[section] = cat_parser.get(section, "contains")
+
+
+def in_cat(tags):
+    tag_list = ["packages"]
+    for tag in tags:
+        for item in app_tags.items():
+            if tag in item[1].strip(";").split(";"):
+                if not item[0] in tag_list:
+                    tag_list.append(item[0])
+    return tag_list
+
+for package in cache.packages:
+    pkg = package.name
+    if package.architecture == arch:
+        if package.has_versions:
+            try:
+                if pkg in packages:
+                    id = 0
+                    cat = ";".join(packages[pkg][0])
+                    name = packages[pkg][1].decode("UTF-8")
+                    comment = packages[pkg][2].decode("UTF-8")
+                    icon = packages[pkg][3]
+                    desc = packages[pkg][4].decode("UTF-8")
+                    deps = packages[pkg][5]
+                    rec = packages[pkg][6]
+                else:
+                    id = 1
+                    ver = depcache.get_candidate_ver(package)
+                    infos.lookup(ver.translated_description.file_list[0])
+                    cat = package.section.replace("multiverse/", "").replace(
+                        "universe/", "").replace("restricted/", "")
+                    name = pkg.capitalize()
+                    comment = infos.short_desc
+                    icon = u"deb"
+                    desc = infos.long_desc
+                    deps_func = get_pkg_depends(pkg)
+                    dep_list = []
+                    rec_list = []
+                    for items in deps_func[0]:
+                        dep_list.append(items[0][0])
+                    for items in deps_func[1]:
+                        rec_list.append(items[0][0])
+                    deps = ";".join(dep_list)
+                    recs = ";".join(rec_list)
+                for items in in_cat(cat.split(";")):
+                    cursor.execute(
+                        "INSERT INTO %s VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)" %
+                        items, (name, pkg, cat, comment,
+                                icon, desc, deps, recs, id))
+            except:
+                print("%s: not found" % pkg)
+
+print("Done")
+db.commit()

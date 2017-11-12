@@ -1,0 +1,639 @@
+# Spanish translation for lubuntu-software-center
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2014-04-14 07:54+0000\n"
+"Last-Translator: usr <Unknown>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-15 07:40+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Centro de software de Lubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Centro de software"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Le permite elegir entre miles de aplicaciones disponibles para Ubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+"Fuentes,Repositorio personal (PPA);Instalar;Desinstalar;Borrar;Catálogo;"
+"Tienda;Aplicaciones;Ligero;Paquete;"
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+"Por favor instale el paquete \"app-install-data\". El centro de software de "
+"Lubuntu no funcionará en modo principiante sin él."
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "paquetes listados"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Instalados"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Paquete seleccionado: "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Añadido a la cesta de aplicaciones"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Añadir a la cesta de aplicaciones"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Eliminar del sistema"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Buscando en Instalados"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Buscando en"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (pedido por "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "desconocido"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Coloque aplicaciones en la cesta para instalarlas"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Cesta de aplicaciones"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "paquete marcado"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "para descargar"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "para instalar"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "paquetes"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Categorías disponibles"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Elija una categoría para comenzar"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Error"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Reseñas"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Tamaño de la descarga:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Tamaño instalado:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Versión:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Info. en"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Preferencias del Centro de software de Lubuntu"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Abrir Propiedades del software"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "General"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Modo experto"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "Mostrar iconos"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Descargar capturas de pantalla"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Comprobar conexión al inicio"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "No hay reseñas disponibles"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Obtener software"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Software instalado"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Centro de software ligero y fácil de usar para Lubuntu"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Mostrar 20 resultados como mínimo"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Mostrar todos los resultados"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Descripción"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Buscar reseñas"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "No se encontraron paquetes"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Detalles del paquete"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Añadir/eliminar"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "Buscar en su lugar en todas las categorías"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Instalar paquetes"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Descartar"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Paquete"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Para descargar"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Para instalar"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Versión"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "Enviar una captura de pantalla"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Buscar un paquete…"
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Copyright © 2011 Equipo de Lubuntu"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Centro de software para el proyecto Lubuntu"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"A veces, cuando desinstala una aplicación, quedan sus archivos de "
+"configuración. Pulse en este botón para eliminar los archivos de "
+"configuración viejos"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Algunas aplicaciones necesitan de otros paquetes para funcionar, y cuando "
+"desinstala esas aplicaciones los otros paquetes no se eliminan. Pulse en "
+"este botón para eliminar los paquetes sin uso"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Cuando instala una aplicación, se descargan localmente los archivos "
+"necesarios para la instalación. Pulse en este botón para eliminar los "
+"paquetes descargados innecesarios"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Archivo"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Propiedades del software"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Inicio"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Limpiar disco"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Actualizar la lista de programas. Si pulsa en este\n"
+"botón, se descargará una lista de programas\n"
+"actualizada"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Actualizar"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "calculando paquetes…"
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "página 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "columna"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            No se encontraron paquetes\n"
+"¿Quiere hacer una búsqueda en todas las categorías?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "No coincide ningún paquete"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "página 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "página 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb a descargar"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Instalar los paquetes"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Tamaño de descarga"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Quitar <package> del cesto de aplicaciones"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "Página 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "etiqueta"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "botón"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 No se encontraron capturas de pantalla\n"
+"Compruebe su conexión a Internet"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Pulse para maximizar"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "página 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "No se encontraron archivos de configuración"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Archivos de configuración viejos"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "No se encontraron archivos descargados"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Paquetes descargados"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Limpie su disco"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Limpiar papelera de administrador"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+"La papelera del usuario \"root\" (localizada en \"/root\") puede estar "
+"llena\n"
+"de archivos viejos es inservibles. Limpiarlo a menudo tiene como\n"
+"resultado un aumento considerable del espacio disponible en disco."
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Limpiar caché de miniaturas"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+"Cada vez que abre una carpeta con imágenes,\n"
+"las miniaturas son creadas automáticamente\n"
+"y guardadas en una carpeta oculta en su carpeta personal.\n"
+"Pulse aquí para limpiar la carpeta (no se borrarán archivos importantes)."
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Limpiar configuración"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Limpiar la caché"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Ahorrar espacio en disco"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "página 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Modo principiante"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Solo iconos"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Solo texto"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Texto bajo los iconos"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Texto al lado de los iconos"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Modo de visualización"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Elija el modo deseado: el modo principiante muestra solo las aplicaciones "
+"reales; y el modo experto lista todos los paquetes, incluyendo bibliotecas y "
+"herramientas de línea de órdenes."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Usar la base de datos de paquetes"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Interfaz"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Estilo de la barra de herramientas"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Elija el estilo de la barra de herramientas"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Mostrar la barra de menús"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Mostrar la barra de estado"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Utilidades"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Acceso universal"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Audio y vídeo"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Juegos"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Gráficos"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Pedagogía"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Ciencia e ingeniería"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Sistema"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Herramientas para desarrolladores"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Temas y ajustes"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Tipografías"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Oficina"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Todo"
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "Instale el paquete app-install-data, el Centro de software no funcionará "
+#~ "en modo principiante sin él"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "Aplicaciones eliminadas correctamente"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "Aplicaciones instaladas correctamente"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "No hay conexión. No puede instalar \n"
+#~ " aplicaciones, pero puede navegarlas"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "Cuando se abre una carpeta con imágenes,\n"
+#~ "las miniaturas se crean de manera dinámica\n"
+#~ "y son guardadas como archivos ocultos en su carpeta personal.\n"
+#~ "Presione aquí para limpiar estos archivos (esto no\n"
+#~ "eliminará archivos importantes)"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "La papelera del usuario root (localizada en /root)\n"
+#~ "puede estar llena de archivos antiguos e inservibles, limpiarla\n"
+#~ "de manera regular puede aumentar el espacio libre en el disco"

@@ -1,0 +1,134 @@
+xenta-software-center (1.3.2) arok; urgency=medium
+
+  * Perbaikan Berkas debian/*
+
+ -- Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>  Sun, 12 Nov 2017 10:06:52 +0700
+
+xenta-software-center (1.3-1) arok; urgency=medium
+
+  * Perubahan dan Modifikasi Untuk Xenta OS
+    Mengganti Nama /*
+    Mengganti Icons /*
+
+ -- Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>  Sun, 05 Nov 2017 17:07:21 +0700
+
+lubuntu-software-center (0.0.10-0ubuntu2) wily; urgency=medium
+
+  * Switch to interest-noawait to avoid trigger loops which fail upgrades.
+    (LP: #1494489)
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 16 Sep 2015 10:13:56 +0100
+
+lubuntu-software-center (0.0.10-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+  * debian/rules:
+   - override dh_auto_test since tests fail.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 17 Feb 2015 22:22:04 +0100
+
+lubuntu-software-center (0.0.8-0ubuntu1) trusty; urgency=low
+
+  [ Jackson Doak ]
+  * debian/control:
+    - Bump standards version to 3.9.4
+    - Bump debhelper to 9
+    - Add X-Python-Version
+    - Fix excess spacing in Depends
+  * debian/rules:
+    - Move --with options outside the debhelper command
+
+  [ Julien Lavergne ]
+  * New upstream release.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 18 Nov 2013 16:09:50 +0100
+
+lubuntu-software-center (0.0.5~bzr161-0ubuntu1) saucy; urgency=low
+
+  * New upstream snapshot.
+   - Rebuild database when LSC start if there is no database (LP: #1078820).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 30 Jun 2013 23:25:50 +0200
+
+lubuntu-software-center (0.0.5~bzr159-0ubuntu1) raring; urgency=low
+
+  * New upstream snapshot, including only bug fixes and translation updates:
+   - Fix errors when parsing some .desktop files (LP: #1158452).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Mon, 08 Apr 2013 13:40:13 +0200
+
+lubuntu-software-center (0.0.5~bzr156-0ubuntu1) raring; urgency=low
+
+  * New upstream snapshot.
+   - Categories not translated (LP: #1006801)
+   - Fix encoding problem on db build (LP: #1099303)
+  * debian/patches:
+   - 90_encode_fix.patch: Remove, merged upstream.
+   - 91_refresh_on_uninstall.patch: Remove, merged upstream.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 07 Mar 2013 19:31:28 +0100
+
+lubuntu-software-center (0.0.5~bzr135-0ubuntu2) quantal; urgency=low
+
+  * debian/patches:
+   - 90_encode_fix.patch: From upstream, fix encoding issue (LP: #940585)
+   - 91_refresh_on_uninstall.patch: From upstream, update correctly the list of
+     applications after uninstall (LP: #1052378)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 04 Oct 2012 23:27:35 +0200
+
+lubuntu-software-center (0.0.5~bzr135-0ubuntu1) precise; urgency=low
+
+  * New upstream snapshot, including only bug fixes and translations updates:
+   - Fix crashed with TypeError in __init__() (LP: #959867)
+   - Fix crashed with KeyError in __main__ (LP: #951930)
+   - Fix crashed with TypeError in refresh_app_basket() (LP: #952070)
+   - Fix crashed with NoOptionError in get() (LP: #961418)
+   - Fix 'gtkwidgets' is not defined  (LP: #946445)
+   - Fix encoding problems (LP: #942016)
+  * debian/patches:
+   - 90_add_ppc_support.patch: Drop, merged upstream.
+   - 91_choosed_category_fix.patch: Drop, merged upstream.
+   - 92_local_tmp_variable.patch: Drop, merged upstream.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 30 Mar 2012 00:33:49 +0200
+
+lubuntu-software-center (0.0.4-0ubuntu3) precise; urgency=low
+
+  * debian/patches:
+   - 91_choosed_category_fix.patch: From upstream, fix crashed with
+     AttributeError in get_func() (LP: #926266)
+   - 92_local_tmp_variable.patch: From upstream, fix crashed with
+     UnboundLocalError in getdeps() (LP: #942944)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 09 Mar 2012 14:21:53 +0100
+
+lubuntu-software-center (0.0.4-0ubuntu2) precise; urgency=low
+
+  * debian/patches:
+   - 90_add_ppc_support.patch: Add ppc support in the database (LP: #934537)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 04 Mar 2012 01:49:27 +0100
+
+lubuntu-software-center (0.0.4-0ubuntu1) precise; urgency=low
+
+  * New upstream release.
+   - Displaying the penguin games incorrectly (lp: #925262)
+   - Not always showing the description (lp: #925263)
+   - Does not have a translated german version (lp: #925267)
+  * debian/*.manpages & debian/*.1:
+   - Use directly upstream manpages.
+  * debian/lubuntu-software-center.postint:
+   - Update location of the categories file.
+  * debian/rules:
+   - Re-enable checks.
+  * debian/copyright:
+   - Update years and copyright holders. 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Fri, 10 Feb 2012 23:18:20 +0100
+
+lubuntu-software-center (0.0.2-0ubuntu1) precise; urgency=low
+
+  * Initial release (LP: #903463).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 07 Jan 2012 17:06:45 +0100

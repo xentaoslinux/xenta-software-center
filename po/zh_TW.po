@@ -1,0 +1,607 @@
+# Chinese (Traditional) translation for lubuntu-software-center
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2013-09-06 01:31+0000\n"
+"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-19 05:51+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Lubuntu 軟體中心"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "軟體中心"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "讓您從上成千上萬的 Ubuntu 應用程式中選擇"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "個套件"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "已安裝"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "所選套件為 "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "已新增至應用程式籃子"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "新增至應用程式籃子"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "從系統移除"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "在已安裝程式中搜尋"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "搜尋"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (要求程式為 "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "不詳"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "要安裝的話，將之放入應用程式籃子"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "應用程式籃子"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "個套件已標示"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "(要下載)"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "(安裝後)"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "個套件"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "可提供分類"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "請先選擇分類"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "出錯"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "評論"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "要下載大小："
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "安裝後大小："
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "版本："
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "詳情："
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Lubuntu 軟體中心偏好設定"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "開啟軟體屬性"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "一般"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "專家模式"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "效能"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "顯示圖示"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "下載螢幕截圖"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "啟動時檢查網路連線"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "無評論"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "取得軟體"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "已安裝軟體"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Lubuntu 輕巧又易用的軟體中心"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "顯示至少 20 個結果"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "顯示所有結果"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "說明"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "看看有否評論"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "找不到套件"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "套件詳情"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "新增／移除"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "改為搜尋所有分類"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "安裝套件"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "捨棄"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "套件"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "要下載"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "安裝後"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "版本"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "提交螢幕截圖"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "搜尋套件..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "著作權所有 © 2011 Lubuntu 團隊"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Lubuntu 專案的軟體中心"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr "移除應用程式有時會殘留設定檔案。按此鈕移除舊的設定檔案"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr "有些應用程式要其他套件才能正常運作，當移除這些套件時不會同時移除其他套件。按此鈕移除這些已無用的套件。"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr "當安裝應用程式時，套件檔案會下載至本機磁碟。按此鈕移除這些已無用的套件檔案。"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "軟體屬性"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "求助(_H)"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "家"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "清理磁碟"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr "更新程式清單。按此鈕下載新的軟體清單"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "更新"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "正在推算套件..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "第1頁"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "欄"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            找不到套件\n"
+"是否改為搜尋所有分類？"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "無套件符合"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "第2頁"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "第3頁"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb (要下載)"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "安裝套件"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "要下載大小"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "在應用程式籃子移除 <package>"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "第4頁"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "標籤"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "按鈕"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 找不到螢幕截圖\n"
+"請檢查網際網路連線"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "按此最大化"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "第5頁"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "找不到設定檔案"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "舊設定檔案"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "找不到下載的檔案"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "下載的套件"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "清理您的磁碟"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "清理系統管理員(root)磁碟"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "清除縮圖快取"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "清除設定"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "清除快取"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "節省磁碟空間"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "第6頁"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "簡易模式"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "僅圖示"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "僅文字"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "圖示下顯示文字"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "圖示旁顯示文字"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "視覺化模式"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr "選擇想要的模式：「簡易模式」只列出真正的應用程式；「專家模式」會列出所有相關套件，包括函式庫及指令列工具。"
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "使用套件資料庫"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "介面"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "工具列風格"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "顯示工具列風格"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "顯示選單列"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "顯示狀態列"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr ""
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr ""
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr ""
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr ""
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr ""
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr ""
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr ""
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr ""
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr ""
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr ""
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr ""
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr ""
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr ""
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr "請安裝 app-install-data 套件，其對 Lubuntu 軟體中心的「簡易模式」為必需"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "成功移除應用程式"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "成功安裝應用程式"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "沒有網路連線，故無法安裝應用程式，\n"
+#~ " 但仍可瀏覽"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "當開啟一個有圖片的資料夾時，會動態\n"
+#~ "產生縮圖並儲存在家資料夾的隱藏資夾。\n"
+#~ "按此清理該資料夾 (不會刪除重要檔案)"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "系統管理員(root)的垃圾桶 (位於 /root)\n"
+#~ "可能充滿舊的或無用的檔案，將之清理\n"
+#~ "通常可回收一些磁碟空間"

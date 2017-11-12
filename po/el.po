@@ -1,0 +1,599 @@
+# Greek translation for lubuntu-software-center
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2014-05-23 13:17+0000\n"
+"Last-Translator: James Spentzos <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-24 06:36+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Κέντρο Λογισμικού Lubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Κέντρο Λογισμικού"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr ""
+"Σας επιτρέπει να επιλέξετε ανάμεσα σε χιλιάδες εφαρμογές διαθέσιμες για το "
+"Ubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+"Πηγές;Αποθετήρια;Εγκατάσταση;Απεγκατάσταση;Αφαίρεση;Κατάλογος;Κατάστημα;Εφαρμ"
+"ογές;Ελαφρύ;Πακέτο;"
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+"Παρακαλώ εγκαταστήστε το πακέτο app-install-data, το κέντρο λογισμικού "
+"lubuntu                 δε θα λειτουργήσει σε λειτουργία αρχάριου χωρίς αυτό"
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "πακέτα που καταγράφονται"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Επιλεγμένο πακέτο "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Προστέθηκε στο Καλάθι Εφαρμογών"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Προσθήκη στο Καλάθι Εφαρμογών"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Αφαίρεση από το σύστημα"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Αναζήτηση στα εγκατεστημένα"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Αναζήτηση σε"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (απαιτείται από "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "άγνωστο"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Τοποθετήστε μερικές εφαρμογές στο καλάθι για να τις εγκαταστήσετε"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Καλάθι Εφαρμογών"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "το πακέτο σημάνθηκε"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "για λήψη"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "για εγκατάσταση"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "πακέτα"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Διαθέσιμες Κατηγορίες"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Επιλέξτε μια κατηγορία για να ξεκινήσετε"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Λάθος"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Μέγεθος Λήψης:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Μέγεθος Εγκατεστημένου:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Έκδοση:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Πληροφορίες για"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Προτιμήσεις Κέντρου Λογισμικού Lubuntu"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Ιδιότητες Ανοιχτού Λογισμικού"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Γενικά"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Λειτουργία για Προχωρημένους"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Απόδοση"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "Απόδοση Εικονιδίων"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Λήψη Στιγμιότυπων οθόνης"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Έλεγχος σύνδεσης στην εκκίνηση"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "Καμία διαθέσιμη κριτική"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Λήψη Λογισμικού"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Εγκατεστημένο Λογισμικό"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Ελαφρύ αλλά φιλικό προς το χρήστη Κέντρο Λογισμικού για το Lubuntu"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Εμφάνιση τουλάχιστον 20 αποτελεσμάτων"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Εμφάνιση όλων των αποτελεσμάτων"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Έλεγχος για κριτικές"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "Δε Βρέθηκαν Πακέτα"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Λεπτομέρειες για το πακέτο"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Προσθήκη/αφαίρεση"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "Αναζήτηση σε όλες τις κατηγορίες"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Εγκατάσταση Πακέτων"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Απόρριψη"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Πακέτο"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Για Λήψη"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Για Εγκατάσταση"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Έκδοση"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "Υποβολή ενός στιγμιότυπου οθόνης"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Αναζήτηση πακέτου..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Πνευματικά δικαιώματα © 2011 Ομάδα του Lubuntu"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Κέντρο Λογισμίκου για το έργο Lubuntu"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Κάποιες φορές, όταν αφαιρείτε μια εφαρμογή, τα αρχεία παραμετροποιήσεων "
+"παραμένουν. Κάντε κλικ σε αυτό το κουμπί για να αφαιρέσετε τα παλιά αρχεία "
+"παραμετροποιήσεων"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Κάποιες εφαρμογές χρειάζονται άλλα πακέτα για να λειτουργήσουν, όταν "
+"αφαιρείτε αυτές τις εφαρμογές τα άλλα πακέτα δεν αφαιρούνται. Κάντε κλικ σε "
+"αυτό το κουμπί για να αφαιρέσετε τα αχρησιμοποίητα πακέτα"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Όταν εγκαθιστάτε μια εφαρμογή, τα απαιτούμενα αρχεία για την εγκατάσταση "
+"κατεβαίνουν τοπικά. Κάντε κλικ σε αυτό το κουμπί για να αφαιρέσετε τα "
+"άχρηστα ληφθέντα πακέτα"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Ιδιότητες Λογισμικού"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Αρχική"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Εκκαθάριση Δίσκου"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Ενημέρωση της λίστα των προγραμμάτων. Κάνοντας κλικ σε αυτό το\n"
+"κουμπί, η ενημερωμένη λίστα λογισμικού θα\n"
+"ληφθεί"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "υπολογισμός πακέτων..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "Σελίδα 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "στήλη"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Δε βρέθηκε κανένα πακέτο\n"
+"Θέλετε να κάνετε αναζήτηση σε όλες τις κατηγορίες;"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Δεν ταιριάζει κανένα πακέτο"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "Σελίδα 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "Σελίδα 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb για λήψη"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Εγκατάσταση των πακέτων"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Μέγεθος λήψης"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Αφαίρεση του <package> από το Καλάθι Εφαρμογών"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "Σελίδα 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "ετικέτα"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "πλήκτρο"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Δε Βρέθηκε Κανένα Στιγμιότυπο οθόνης\n"
+"Παρακαλώ ελέγξτε την σύνδεσή σας στο Διαδίκτυο"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Κάντε κλικ για μεγένθυση"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "Σελίδα 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Δε βρέθηκε κανένα αρχείο παραμετροποιήσεων"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Παλιά αρχεία παραμετροποιήσεων"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Δε βρέθηκε κανένα ληφθέν αρχείο"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Ληφθέντα Πακέτα"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Καθαρίστε το δίσκο σας"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Εκκαθάριση απορριμμάτων διαχειριστή"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+"Τα απορρίμματα του διαχειριστή (βρίσκονται στο /root)\n"
+"μπορεί να γεμάτα με παλιά και άχρηστα αρχεία, ο καθαρισμός\n"
+"τους συχνά οδηγεί σε αρκετή αύξηση διαθέσιμου χώρου στο δίσκο"
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Εκκαθάριση προσωρινής μνήμης μικρογραφιών"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+"Όταν ανοίγετε ένα φάκελο με εικόνες,\n"
+"οι μικρογραφίες δημιουργούνται δυναμικά\n"
+"και αποθηκεύονται σε έναν κρυμμένο φάκελο στον προσωπικό σας φάκελο.\n"
+"Κάντε κλικ εδώ για να καθαρίσετε αυτό το φάκελο (αυτό δε θα\n"
+"διαγράψει σημαντικά αρχεία)"
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Εκκαθάριση Παραμετροποιήσεων"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Εκκαθάριση Προσωρινής μνήμης"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Εξοικονόμηση Χώρου Δίσκου"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "Σελίδα 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Λειτουργία Αρχάριου"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Μόνο εικονίδια"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Μόνο κείμενο"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Κείμενο κάτω από τα εικονίδια"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Κείμενο δίπλα στα εικονίδια"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Λειτουργία απεικόνισης"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Επιλέξτε τη λειτουργία που θέλετε, στη Λειτουργία Αρχάριου εμφανίζονται μόνο "
+"οι πραγματικές εφαρμογές, στη Λειτουργία για Προχωρημένους εμφανίζονται όλα "
+"τα πακέτα συμπεριλαμβανομένων και των βιβλιοθηκών και των εργαλείων της "
+"γραμμής εντολών."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Χρήση της βάσης δεδομένων πακέτων"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Περιβάλλον"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Στυλ Γραμμής Εργαλείων"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Επιλέξτε το Στυλ της Γραμμής Εργαλείων"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Εμφάνιση Γραμμής Μενού"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Εμφάνιση Γραμμής Κατάστασης"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Εργαλεία"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Γενική Πρόσβαση"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Ήχος & Βίντεο"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Παιχνίδια"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Γραφικά"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Διαδίκτυο"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Εκπαίδευση"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Επιστήμη & Μηχανική"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Σύστημα"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Εργαλεία Προγραμματισμού"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Θέματα & Βελτιώσεις"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Γραφείο"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Όλα"

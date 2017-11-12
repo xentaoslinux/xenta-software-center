@@ -1,0 +1,617 @@
+# Japanese translation for lubuntu-software-center
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2014-05-23 21:30+0000\n"
+"Last-Translator: Jakub Janouš <Unknown>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-24 06:36+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Lubuntuソフトウェアセンター"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "ソフトウェアセンター"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Ubuntu で利用可能な数千ものアプリケーションから選択してみてください"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+"Nainstalujte prosím balíček app-install-data, neboť bez něj nebude fungovat "
+"režim pro začátečníky v centru softwaru pro Lubuntu"
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "パッケージリスト"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "インストール済"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "選択されているパッケージ "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "バスケットに入れる"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "バスケットに入れる"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "システムから削除する"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "インストール済みの中で検索しています"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "この中を検索"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (要求者は "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "不明"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "パッケージをバスケットに入れて下さい"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "アプリバスケット"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "パッケージが選択されています"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "がダウンロードされます"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "がインストールされます"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "パッケージ"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "選択可能なカテゴリ"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "カテゴリを選んで下さい"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "エラー"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "レビュー"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "ダウンロードサイズ"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "インストールサイズ:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "バージョン:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "パッケージ詳細"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Lubuntuソフトウェアセンター設定"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "ソフトウェアソースを起動"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "一般"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "上級者モード"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "パフォーマンス"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "アイコンを描画"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "スクリーンショットをダウンロード"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "起動時に接続"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "レビューを利用しない"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "ソフトウェアを取得"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "インストール済みソフトウェア"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Lubuntu用の軽量で使いやすいソフトウェアセンター"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "20以上の結果を表示"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "すべての結果を表示"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "詳細"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "レビューを見る"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "パッケージが見つかりません"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "パッケージ詳細"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "追加/削除"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "すべてのカテゴリで探す"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "パッケージをインストール"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "破棄"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "パッケージ"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "ダウンロード"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "インストール"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "バージョン"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "スクリーンショットを送る"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "パッケージを検索..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Copyright © 2011 Lubuntu チーム"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Lubuntuプロジェクトのソフトウェアセンター"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr "アプリケーションを削除した際、設定ファイルが残ってしまう場合があります。古い設定ファイルを削除するには、このボタンをクリックして下さい。"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"いくつかのアプリケーションは他のパッケージを必要とする場合がありますが、アプリケーションが削除された時にそれらは削除されないことがあります。不要なパッケー"
+"ジを削除するにはこのボタンをクリックして下さい。"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"あなたがアプリケーションをインストールすると、必要なファイルがこのコンピュータにダウンロードされます。このボタンを押せばそれらのゴミを削除できます。"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "ソフトウェアソース"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "ホーム"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "ディスクを整理"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"プログラムリストをアップデートするには\n"
+"このボタンを押して、リストをダウンロードして下さい。"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "更新"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "設定"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "パッケージを計算中..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "ページ1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "列"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr "                            代わりにすべてのカテゴリで検索しますか？"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "パッケージが見つかりません"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "ページ2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "ページ3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mbがダウンロードされます。"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "パッケージをインストールします"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "ダウンロードサイズ"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "<package>をアプリバスケットから削除します。"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "ページ4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "ラベル"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "ボタン"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 スクリーンショットが見つかりません。\n"
+"インターネット接続を確認して下さい。"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "クリックで最大化"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "ページ5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "コンフィグファイルが見つかりません"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "古いコンフィグファイル"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "ダウンロードされたファイルが見つかりません"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "ダウンロードされたパッケージ"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "ディスクを掃除します"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "rootのゴミを掃除します"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "サムネイルキャッシュを掃除"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "クリーニング設定"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "キャッシュをクリア"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "空き領域を節約"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "ページ6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "初心者モード"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "アイコンのみ"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "テキストのみ"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "アイコンの下に文字"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "アイコンの横に文字"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "ビジュアルモード"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"モードを選択してください。初心者モードではアプリケーションのみ表示されます。上級者モードではすべてのパッケージとライブラリとコマンドラインツールが表示され"
+"ます。"
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "パッケージデータベースを使用する"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "外観"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "ツールバースタイル"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "ツールバースタイルを選択"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "メニューバーを表示"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "ステータスバーを表示"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr ""
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr ""
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr ""
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr ""
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr ""
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr ""
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr ""
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr ""
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr ""
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr ""
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr ""
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr ""
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr ""
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "app-install-dataパッケージをインストールして下さい。Lubuntuソフトウェアセンターはそれなしでは初心者モードになりません。"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "アプリが正常に削除されました"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "アプリが正常にインストールされました"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "接続ができないため アプリをインストールできません。 \n"
+#~ " それらを確認することができます。"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "rootユーザのゴミ箱(/rootにあります)が\n"
+#~ "古いゴミで満たされていることがあるため、\n"
+#~ "削除をすれば多くの空き領域を確保できることがあります。"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "画像入りのフォルダを開くと\n"
+#~ "サムネイルが生成され、\n"
+#~ "ホームフォルダ内の隠しフォルダに保存されます。\n"
+#~ "ここを押して、それらを掃除することができます\n"
+#~ "(重要なファイルは消えません)"

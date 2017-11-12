@@ -1,0 +1,640 @@
+# Dutch translation for lubuntu-software-center
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2014-03-22 21:55+0000\n"
+"Last-Translator: Pjotr12345 <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-03-23 06:35+0000\n"
+"X-Generator: Launchpad (build 16967)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Lubuntu softwarecentrum"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Softwarecentrum"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr ""
+"Laat u kiezen uit duizenden toepassingen die beschikbaar zijn voor Ubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+"Installeer a.u.b. het pakket app-install-data, want Lubuntu softwarecentrum "
+"zal zonder dat niet kunnen werken in beginnersmodus"
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "opgesomde pakketten"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Gekozen pakket "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Toegevoegd aan het Toepassingenmandje"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Toevoegen aan het Toepassingenmandje"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Verwijderen uit het systeem"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Aan het zoeken in Geïnstalleerd"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Aan het zoeken in"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (op verzoek van "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "onbekend"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Plaats enkele toepassingen in het mandje om ze te installeren"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Toepassingenmandje"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "pakket gemarkeerd"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "binnen te halen"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "te installeren"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "pakketten"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Beschikbare categorieën"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Kies een categorie om mee te beginnen"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Fout"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Downloadgrootte:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Geïnstalleerde grootte:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Versie:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Info over"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Voorkeuren van Lubuntu softwarecentrum"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Eigenschappen van Open Programmatuur"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Algemeen"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Expertmodus"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Prestaties"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "Pictogrammen weergeven"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Schermafdrukken binnenhalen"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Verbinding controleren bij opstarten"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "Geen beoordelingen beschikbaar"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Programma's verkrijgen"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Geïnstalleerde programmatuur"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Licht maar gebruikersvriendelijk softwarecentrum voor Lubuntu"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Toon minstens 20 resultaten"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Toon alle resultaten"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Kijk of er beoordelingen zijn"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "Geen pakketten gevonden"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Details van het pakket"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Toevoegen/verwijderen"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "In plaats daarvan alle categorieën doorzoeken"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Pakketten installeren"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Annuleren"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Pakket"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Binnen te halen"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Te installeren"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Versie"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "Een schermafdruk indienen"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Een pakket zoeken..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Auteursrecht © 2011 Lubuntu-ploeg"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Softwarecentrum voor het Lubuntuproject"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Soms, wanneer u een toepassing verwijdert, blijven de configuratiebestanden "
+"achter. Klik op deze knop om de oude configuratiebestanden te verwijderen"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Sommige toepassingen hebben andere pakketten nodig om te kunnen werken; "
+"wanneer u deze toepassingen verwijdert dan worden de andere pakketten niet "
+"mee verwijderd. Klik op deze knop om de ongebruikte pakketten te verwijderen"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Wanneer u een toepassing installeert, dan worden de benodigde "
+"installatiebestanden op uw harde schijf gezet. Klik op deze knop om de "
+"nutteloze binnengehaalde pakketten te verwijderen"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Bestand"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Eigenschappen van programmatuur"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Persoonlijke map"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Schijf schoonmaken"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Werk de programmalijst bij. Door te klikken\n"
+"op deze knop, zal de bijgewerkte pakkettenlijst\n"
+"worden binnengehaald"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Bijwerken"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "pakketten aan het berekenen..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "bladzijde 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "kolom"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Geen pakketten gevonden\n"
+"Wilt u in plaats daarvan alle categorieën doorzoeken?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Geen overeenkomende pakketten"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "bladzijde 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "bladzijde 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb om binnen te halen"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "De pakketten installeren"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Downloadgrootte"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Verwijder <pakket> uit het Toepassingenmandje"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "bladzijde 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "etiket"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "knop"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Geen schermafdruk gevonden\n"
+"Controleer a.u.b. uw internetverbinding"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Klikken om te maximaliseren"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "bladzijde 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Geen configuratiebestanden gevonden"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Oude configuratiebestanden"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Geen binnengehaalde bestanden gevonden"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Binnengehaalde pakketten"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Uw schijf schoonmaken"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Prullenbak van rootgebruiker legen"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+"De prullenbak van de rootgebruiker (in\n"
+"/root) kan vol zitten met oude nutteloze\n"
+"bestanden. Leegmaken resulteert vaak in\n"
+"een behoorlijke toename van schijfruimte."
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Opslag van miniaturen leegmaken"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+"Als u en map opent met afbeeldingen,\n"
+"dan worden de miniaturen dynamisch\n"
+"aangemaakt en opgeslagen in een\n"
+"verborgen map in uw thuismap. Klik\n"
+"hier om deze map te ledigen (dit zal\n"
+"geen belangrijke bestanden wissen)."
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Configuratie schoonmaken"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Opslag leegmaken"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Schijfruimte besparen"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "bladzijde 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Beginnersmodus"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Alleen pictogrammen"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Alleen tekst"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Tekst onder pictogrammen"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Tekst naast pictogrammen"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Weergavemodus"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Kies de gewenste modus. In Beginnersmodus worden alleen de toepassingen zelf "
+"getoond, in Expertmodus worden alle pakketten getoond met inbegrip van "
+"bibliotheekbestanden en opdrachtregel-gereedschappen."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "De gegevensbank van de pakketten gebruiken"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Bedieningsschil"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Werkbalkstijl"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "De stijl van de werkbalk kiezen"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Menubalk tonen"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Statusbalk tonen"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Hulpmiddelen"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Universele toegang"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Audio & Video"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Spellen"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Grafisch"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Onderwijs"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Wetenschap & Techniek"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Systeem"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Hulpmiddelen voor ontwikkelaars"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Thema's en aanpassingen"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Lettertypen"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Kantoor"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Alles"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "Toepassingen met succes verwijderd"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "Toepassingen met succes geïnstalleerd"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "Geen verbinding gevonden, u kunt geen \n"
+#~ " toepassingen installeren. U kunt echter wel naar ze bladeren"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "Wanneer u een map met afbeeldingen opent,\n"
+#~ "worden er automatisch miniaturen van\n"
+#~ "gemaakt en opgeslagen in een verborgen\n"
+#~ "map in uw persoonlijke map. Klik hier om\n"
+#~ "deze map te ledigen (dit zal geen belangrijke\n"
+#~ "bestanden wissen)"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "De prullenbak van de rootgebruiker (in /root)\n"
+#~ "kan vol oude en ongebruikte bestanden zitten;\n"
+#~ "door die weg te gooien wint u vaak veel schijfruimte"
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "Installeer a.u.b. het pakket app-install-data. Alleen met dit pakket kan "
+#~ "het Lubuntu softwarecentrum in beginnersmodus worden gebruikt."

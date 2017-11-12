@@ -1,0 +1,15 @@
+Hi, if you want to get involved, here there is a list o TODO items:
+
+Well, the Gtk3 port is complete, there isn't a lot to do, anyway you can:
+
+* Try to port LSC to PackageKit, i mean get the version and the size with packagekit, compile the database with packagekit and so on
+
+Good Work!
+
+And rember, Lubuntu Software Center should be light, don't try to use:
+
+* WebKit
+* Cairo
+* Any module wich isn't related to Gtk or Apt (except for pynotify and/or routines modules - os, subprocess, ...)
+
+Stephen Smally

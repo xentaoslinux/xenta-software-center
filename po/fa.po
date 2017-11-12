@@ -1,0 +1,625 @@
+# Persian translation for lubuntu-software-center
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2012-06-09 20:43+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-19 05:51+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "مرکز نرم افزاری لوبونتو"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "مرکز نرم افزاری"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr ""
+"به شما اجازه می‌دهد که از بین هزاران نرم‌افزار موجود برای اوبونتو انتخاب کنید"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "پکیج ها لیست شدند"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "نصب شده"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "پکیج های انتخاب شده "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "به سبد برنامه ها اضافه شد"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "به سبد برنامه ها اضافه شود"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "حذف از سیستم"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "جستجو بین نصب شده ها"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "جستجو در داخل"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " درخواست شده توسط "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "نامعلوم"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "چند برنامه را داخل سبد برنامه ها بگذارید تا نصب شوند"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "سبد برنامه ها"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "بسته انتخاب شد"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "برای دانلود"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "برای نصب"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "بسته ها"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "موضوعات دردسترس"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "برای شروع یک موضوع را انتخاب کنید"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "خطا"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "نظرات"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "حجم دانلود"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "حجم فایل های نصب شده"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "نسخه:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "ساعت روز روشن"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "تنظیمات مرکز نرم افزاری لوبونتو"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "باز کردن مشخصات نرم افزار"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "عمومی"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "حالت تخصصی"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "کارایی"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "بارگزاری آیکون ها"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "دریافت تصاویر"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "برسی اتقال به اینترنت در هنگام شروع"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "هیچ نظری در دسترس نمی باشد"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "دریافت نرم افزار"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "نرم افزار های نصب شده"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "مرکز نرم افزاری زیبا، ولی سبک برای لوبونتو"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "نمایش حداقل 20 نتیجه"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "نمایش همه نتایج"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "توضیحات"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "برسی برای نظرات"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "بسته ای پیدا نشد"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "مشخصات کامل بسته"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "نصب/حذف"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "بجای آن در همه موضوعات جستجو کن"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "نصب بسته ها"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "رد کردن"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "بسته"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "برای دانلود"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "برای نصب"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "نسخه‌"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "ارسال تصویر"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "جستجوی یک بسته..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "کپی رایت © 2011 تیم لوبونتو"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "مرکز نرم افزاری برای پروژه لوبونتو"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"گاهی اوقات زمانی که نرم افزاری را پاغک میکنید، تنظیمات آن همچنان باقی می "
+"ماند. روی این دکمه کلیک کنید تا این تنظیمات قدیمی از بین بروند"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"بعضی برنامه ها به بسته هایی برای کار کردن نیاز دارند. زمانی که این برنامه ها "
+"را پاک کنید، آن بسته ها پاک نخواهند شد. روی این دکمه کلیک کنید تا بسته های "
+"غیر لازم پاک شوند"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"زمانی که بسته ای را نصب مکنید، فالی های مورد نیاز برای نصب به شکل محلی "
+"دانلود میشوند. روی این دکمه کلیک کنید تا بسته های غیر لازم را پاک کنید"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_فايل"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_ويرايش"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "مشخصات نرم افزار"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_راهنما"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "پاک کردن دیسک"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"لیست برنامه ها را به روز کنید. روی این\n"
+"دکمه کلیک کنید تا لیست برنامه ها\n"
+"دانلود شود"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "تنظیمات"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "محاسبه ی بسته ها..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "صفحه 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "ستون"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            بسته ای پیدا نشد\n"
+"آیا میخواید بجایش در همه موضوعات جستجو شود؟"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "بسته ای با مشخصات یافت نشد"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "صفحه 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "صفحه 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "مگابایت برای دانلود"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "نصب بسته ها"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "حجم دانلود"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "حذف <package> از سبد برنامه ها"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "صفحه 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "برچسب"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "دکمه"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 تصویری پیدا نشد\n"
+"لطفا اتصال اینترنت خود را برسی کنید"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "برای بزرگنمایی کلیک کنید"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "صفحه 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "هیچ فایل تنظیماتی پیدا نشد"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "فایل تنظیمات قدیمی"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "هیچ فایل دانلود شده ای پیدا نشد"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "بسته های دانلود شده"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "دیسکتان را تمیز کنید"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "پاک کردن سطل زباله ریشه"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "تصاویر بندانگشتی ذخیره شده را پاک کنید"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "پاک کردن تنظیمات"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "پاک کردن حافظه کش"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "حفظ فضای هارد"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "صفحه 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "حالت مبتدی"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "فقط نمایش آیکون‌"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "فقط نمایش متن"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "نمایش متن زیر آیکون"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "نمایش متن کنار آیکون"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "حالت تصویری"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"حالت مورد نظر خود را انتخاب کنید. در حالت مبتدی، فقط بسته های واقعی نمایش "
+"داده میشوند در حالی که در حالت حرفه ای، تمامی بسته ها شامل کتاب خانه ها و خط "
+"های فرمان نیز نمایش می یابد."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "استفاده از بانک اطلاعاتی بسته ها"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "رابط کاربری"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "حالت نوار ابزار"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "انتخاب حالت نوار ابزار"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "نمایش نوار منو"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "نمایش نوار وضعیت"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr ""
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr ""
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr ""
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr ""
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr ""
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr ""
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr ""
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr ""
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr ""
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr ""
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr ""
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr ""
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr ""
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "نرم افزارها با موفقیت حذف شدند"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "نرم افزارها با موفقیت نصب شدند"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "اتصال اینترنت برقرار نمیباشد. شما قادر به نصب \n"
+#~ "برنامه ها نیستید، ولی میتوانید انها را مرور کنید"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "زمانی که شما پوشه حاوی تصویر را باز میکنید\n"
+#~ "تصاویر بند انگشتی ای از ان تصاویر ساخته میشود\n"
+#~ "که در پوشه ی خانگی شما ذخیره میشود.\n"
+#~ "اینجا کلیک کنید تا ان پوشه پاک شود (این کار\n"
+#~ "به فایل های مهم صدمه وارد نمیکند)"
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "لطفا بسته app-install-data را نصب کنید. مرکز نرم افزاری لوبونتو بدون این "
+#~ "بسته در حالت مبتدی قادر به کار کردن نیست."
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "سطل زباله ی کاربران ریشه (در /root)\n"
+#~ "ممکن از پر از فایل های غیر لازم باشند. پاک\n"
+#~ "کردن آن به معنای داشتن فضای بیشتر هارد است"

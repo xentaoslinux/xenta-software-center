@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "triggered" ] || [ "$1" = "configure" ]; then
+
+    # update the application data
+    xenta-software-center-build-db /var/cache/lsc_packages.db /usr/share/app-install/desktop/ /usr/share/LSC/categories.ini || true
+    exit 0
+fi

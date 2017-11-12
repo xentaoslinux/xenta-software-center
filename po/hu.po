@@ -1,0 +1,594 @@
+# Hungarian translation for lubuntu-software-center
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2013-03-06 19:47+0000\n"
+"Last-Translator: Máté Eckl <ecklm94@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-19 05:51+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Lubuntu szoftverközpont"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Szoftverközpont"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Válogasson az Ubuntuhoz elérhető alkalmazások ezrei közül"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "listázott csomagok"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Telepített"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Kijelölt csomag "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Hozzáadva az alkalmazások kosarárhoz"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Hozzáadás az alkalmazások kosarához"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Eltávolítása  rendszerről"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Keresés a telepítettek között"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Keresés a következőben:"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr ""
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "Ismeretlen"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Tegyen alkalmazásokat a kosárba, hogy feltelepítse őket"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Alkalmazások kosara"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr ""
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "letölteni"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "feltelepíteni"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "csomagok"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Elérhető kategódiák"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Válasszon kategóriát a kezdéshez"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Kritikák"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Letöltési méret:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Telepített méret:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Verzió:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Információ"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Lubuntu Szoftverközpont tulajdonságok"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Szabadszoftver beállítások"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Általános"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Haladó mód"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Teljesítmény"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr ""
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Képernyőképek letöltése"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Ellenőrizze a kapcsolatot induláskor"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "Nincsenek elérhető kritikák"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr ""
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Telepített szoftverek"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Könnyű, de felhasználóbatár szoftverközpont Lubuntuhoz"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Legalább 20 találat mutatása"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Összes találat megjelenítése"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Leírás"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Kritikk keresése"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "Nincs találat"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Csomag részletei"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Hozzáadás/eltávolítás"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "Inkább az összes kategóriában keressen"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Csomagok telepítése"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Elvetés"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Csomag"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Letölteni"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Telepíteni"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Verzió"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr ""
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Csomag keresése..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr ""
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "A Lubuntu projekt szoftverközpontja"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"Néha, amikor töröl egy csomagot a konfigurációs fájlok megmaradnak. "
+"Kattintson a gombra a régi konfugurációs fájlok eltávolításához!"
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Néhány alkalmazásnak más csomagokra is szükségük van a működéshez, ezek "
+"eltávolításakor azonban a kiegészítő csomagjai nem törlődnek. Kattintson a "
+"gombra a haszontalan csomagok eltávolításához!"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Egy alkalmazás telepítésekor a szükséges fájlok letöltésre kerülnek. "
+"Kattintson a gombra a haszontalan letöltött csomagok eltávolításához!"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "Fájl"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "Szerkesztés"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Szoftvertulajdonságok"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "Súgó"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Saját mappa"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Lemez tisztítása"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Programlista frissítése. A gombra kattintva\n"
+"a friss programlista letöltésre kerül"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Frissítés"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Tulajdonságok"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "csomagok számolása"
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "1. oldal"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "oszlop"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Nincs találat\n"
+"Szeretné inkább az összes kategóriában keresni?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Nincs találat"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "2. oldal"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "3. oldal"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Letöltendő Mb"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Csomagok telepítése"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Letöltendő méret"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "<package> eltávolítása az alkalmazások kosarából"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "4. oldal"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "címke"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "gomb"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr ""
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "5. oldal"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Nincsenek konfigurációs fájlok"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Régi konfigurációs fájlok"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr ""
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Letöltött csomagok"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr ""
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Root kuka örítése"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Előlnézeti gyorsítótár kiürítése"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Bállítások törlése"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Gyorsítótár kiürítése"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Lemezhely felszabadítása"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "6. oldal"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Kezdő mód"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Csak ikonok"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Csak szöveg"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Szöveg az ikonok alatt"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Szöveg az ikonok mellett"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr ""
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Csomag adatbázis használata"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Kezelőfelület"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr ""
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr ""
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr ""
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr ""
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr ""
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr ""
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr ""
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr ""
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr ""
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr ""
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr ""
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr ""
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr ""
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr ""
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr ""
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr ""
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr ""
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "Kérjük telepítsd az app-install-data, a Lubuntu szoftverközpont enélkül nem "
+#~ "fog kező módban működni"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "Alkalmazások sikeresen eltávolítva"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "Alkalmazások sikeresen telepítve"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr "Nincs kapcsolat, a telepítés nem végrehajtható"

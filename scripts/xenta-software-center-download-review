@@ -1,0 +1,79 @@
+#!/usr/bin/env python
+#       Copyright (c)   Dindin Hernawan <root@dev.xentaos.org>
+#                       Stephen Smally <stephen.smally@gmail.com>
+#
+#       This program is free software; you can redistribute it and/or modify
+#       it under the terms of the GNU General Public License as published by
+#       the Free Software Foundation; either version 2 of the License, or
+#       (at your option) any later version.
+#       This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#       You should have received a copy of the GNU General Public License
+#       along with this program; if not, write to the Free Software
+#       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#       MA 02110-1301, USA.
+#
+
+import sys
+import urllib
+import os
+import platform
+import locale
+from ConfigParser import RawConfigParser
+args = sys.argv
+
+ubuntu_reviews = "https://reviews.ubuntu.com/reviews/api/1.0"
+
+if len(args) == 3:
+    pkg = args[1]
+    where = args[2]
+    if not os.path.exists(where+pkg):
+        try:
+            lang = locale.getdefaultlocale()[0]
+            if lang is None:
+                lang = "en_EN"
+            lang = lang.split("_")[0]
+            distro = platform.dist()[0].lower()
+            if distro != "ubuntu":
+                distro = "any"
+            # Set series to "any" to have more reviews
+            serie = "any"
+            #serie = platform.dist()[-1].lower()
+            #if not serie in ["precise", "quantal", "raring", "saucy"]:
+            #    serie = "any"
+            # use /reviews/filter/$language/$distro/$serie/$version/package
+            urllib.urlretrieve(
+                ubuntu_reviews+"/reviews/filter/%s/%s/%s/any/%s/" % (
+                    lang, distro, serie, pkg), where+pkg)
+        except IOError:
+            print("Check your internet connection")
+            sys.exit()
+    print("downloaded")
+
+else:
+    print("Usage: xenta-software-center-download-review PKG-NAME OUPUT-DIR")
+    sys.exit()
+
+lista = eval(open(where+pkg, "r").read().replace("false", "False").replace(
+    "null", "None").replace("true", "True"))
+
+parser = RawConfigParser()
+control = open(where+pkg+".ini", "w")
+control.close()
+control = open(where+pkg+".ini", "r+w")
+parser.readfp(control)
+
+x = 0
+for reviews in lista:
+    parser.add_section("%s" % x)
+    parser.set("%s" % x, "reviewer_username", reviews["reviewer_username"])
+    parser.set("%s" % x, "summary", reviews["summary"])
+    parser.set("%s" % x, "review_text", reviews["review_text"])
+    parser.set("%s" % x, "version", reviews["version"])
+    x += 1
+
+parser.write(control)
+control.close()
+os.remove(where+pkg)

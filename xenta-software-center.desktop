@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Xenta Software Center
+GenericName=Software Center
+Comment=Lets you choose from thousands of applications available for Xenta OS
+Exec=xenta-software-center
+Icon=xenta-software-center
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+StartupNotify=true
+Keywords=Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;
+Name[en_US]=xenta-software-center.desktop

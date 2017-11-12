@@ -1,0 +1,628 @@
+# Malay translation for lubuntu-software-center
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the lubuntu-software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lubuntu-software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-18 16:25+0100\n"
+"PO-Revision-Date: 2012-11-24 15:06+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-19 05:51+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
+
+#: ../lubuntu-software-center.desktop.in.h:1 ../src/UI.py:61 ../src/UI.py:124
+msgid "Lubuntu Software Center"
+msgstr "Pusat Perisian Lubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:2
+msgid "Software Center"
+msgstr "Pusat Perisian"
+
+#: ../lubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "Benarkan anda memilih beribu-ribu aplikasi yang tersedia untuk Ubuntu"
+
+#: ../lubuntu-software-center.desktop.in.h:4
+msgid ""
+"Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;"
+msgstr ""
+
+#: ../src/control.py:101
+msgid ""
+"Please install the package app-install-data, lubuntu                 "
+"software center will not work in beginner mode without it"
+msgstr ""
+
+#: ../src/main.py:150 ../src/main.py:168 ../src/main.py:432 ../src/main.py:442
+#: ../src/threadingops.py:111
+msgid "packages listed"
+msgstr "pakej tersenarai"
+
+#: ../src/main.py:165 ../src/main.py:430
+msgid "Installed"
+msgstr "Dipasang"
+
+#: ../src/main.py:241 ../src/main.py:243
+msgid "Selected package "
+msgstr "Pakej terpilih "
+
+#: ../src/main.py:248 ../src/main.py:251 ../src/main.py:570
+msgid "Added to the Apps Basket"
+msgstr "Ditambah ke Bakul Aplikasi"
+
+#. print widget.get_label()
+#: ../src/main.py:256 ../src/main.py:259 ../src/main.py:277
+msgid "Add to the Apps Basket"
+msgstr "Tambah ke Bakul Aplikasi"
+
+#: ../src/main.py:264 ../src/main.py:267 ../src/main.py:269 ../src/main.py:282
+msgid "Remove from the system"
+msgstr "Buang dari sistem"
+
+#: ../src/main.py:373
+msgid "Searching in Installed"
+msgstr "Menggelintar dalam terpasang"
+
+#: ../src/main.py:412
+msgid "Searching in"
+msgstr "Menggelintar dalam"
+
+#: ../src/main.py:482 ../src/main.py:488
+msgid " (requested by "
+msgstr " (dipinta oleh) "
+
+#: ../src/main.py:483
+msgid "unknown"
+msgstr "tidak diketahui"
+
+#: ../src/main.py:494
+msgid "Put some apps in the basket to install them"
+msgstr "Letak beberapa aplikasi dalam bakul untuk memasangnya"
+
+#: ../src/main.py:497 ../src/main.py:505 ../src/main.py:510 ../src/main.py:613
+#: ../src/UI.py:80 ../data/lsc.ui.h:14
+msgid "Apps Basket"
+msgstr "Bakul Aplikasi"
+
+#: ../src/main.py:500
+msgid "package marked"
+msgstr "pakej ditanda"
+
+#: ../src/main.py:501
+msgid "to download"
+msgstr "untuk dimuat turun"
+
+#: ../src/main.py:502
+msgid "to install"
+msgstr "untuk dipasang"
+
+#: ../src/main.py:512
+msgid "packages"
+msgstr "pakej"
+
+#: ../src/main.py:555
+msgid "Available Categories"
+msgstr "Kategori Tersedia"
+
+#: ../src/main.py:557
+msgid "Choose a category to start"
+msgstr "Pilih kategori untuk mula"
+
+#: ../src/main.py:631
+msgid "Error"
+msgstr "Ralat"
+
+#: ../src/main.py:646
+msgid "Reviews"
+msgstr "Ulasan"
+
+#: ../src/main.py:679
+msgid "Download Size:"
+msgstr "Saiz Muat Turun:"
+
+#: ../src/main.py:681
+msgid "Installed Size:"
+msgstr "Saiz Dipasang:"
+
+#: ../src/main.py:683
+msgid "Version:"
+msgstr "Versi:"
+
+#: ../src/main.py:687
+msgid "Infos on"
+msgstr "Maklumat aktif"
+
+#: ../src/preferences.py:34
+msgid "Lubuntu Software Center Preferences"
+msgstr "Keutamaan Pusat Perisian Lubuntu"
+
+#: ../src/preferences.py:52
+msgid "Open Software Properties"
+msgstr "Buka Sifat Perisian"
+
+#. ----------------------------------------------
+#: ../src/preferences.py:67 ../data/preferences.ui.h:8
+msgid "General"
+msgstr "Am"
+
+#: ../src/preferences.py:73 ../data/preferences.ui.h:2
+msgid "Expert Mode"
+msgstr "Mod Mahir"
+
+#: ../src/preferences.py:76
+msgid "Performance"
+msgstr "Prestasi"
+
+#: ../src/preferences.py:83
+msgid "Render Icons"
+msgstr "Terap Ikon"
+
+#: ../src/preferences.py:89
+msgid "Download Screenshots"
+msgstr "Muat Turun Cekupan Skrin"
+
+#: ../src/preferences.py:95
+msgid "Check connection at startup"
+msgstr "Semak sambungan semasa permulaan"
+
+#. If only the Reviews title is in the box
+#: ../src/threadingops.py:226
+msgid "No reviews available"
+msgstr "Tiada ulasan tersedia"
+
+#: ../src/UI.py:78 ../data/lsc.ui.h:11
+msgid "Get Software"
+msgstr "Dapatkan Perisian"
+
+#: ../src/UI.py:79 ../data/lsc.ui.h:12
+msgid "Installed Software"
+msgstr "Perisian Dipasang"
+
+#: ../src/UI.py:132
+msgid "Light but user-friendly Software Center for Lubuntu"
+msgstr "Pusat Perisian yang mesra-pengguna dan ringan untuk Lubuntu"
+
+#. -------------------------------------------------
+#: ../src/UI.py:151
+msgid "Show at least 20 results"
+msgstr "Papar sekurang-kurangnya 20 keputusan"
+
+#: ../src/UI.py:152
+msgid "Show all results"
+msgstr "Papar semua keputusan"
+
+#: ../src/widgets/appsinfo.py:122 ../data/lsc.ui.h:41
+msgid "Description"
+msgstr "Keterangan"
+
+#: ../src/widgets/appsinfo.py:123
+msgid "Check for reviews"
+msgstr "Semak ulasan"
+
+#: ../src/widgets/appsview.py:30 ../src/widgets/appsview.py:97
+msgid "No Packages Found"
+msgstr "Tiada Pakej Ditemui"
+
+#: ../src/widgets/appsview.py:64
+msgid "Details on the package"
+msgstr "Perincian pakej"
+
+#: ../src/widgets/appsview.py:65
+msgid "Add/remove"
+msgstr "Tambah/buang"
+
+#: ../src/widgets/appsview.py:98
+msgid "Search all categories instead"
+msgstr "Gelintar semua kategori"
+
+#: ../src/widgets/basket.py:52
+msgid "Install Packages"
+msgstr "Pasang Pakej"
+
+#: ../src/widgets/basket.py:53
+msgid "Discard"
+msgstr "Singkirkan"
+
+#: ../src/widgets/basket.py:66 ../data/lsc.ui.h:30
+msgid "Package"
+msgstr "Pakej"
+
+#: ../src/widgets/basket.py:67
+msgid "To Download"
+msgstr "Untuk Dimuat Turun"
+
+#: ../src/widgets/basket.py:68
+msgid "To Install"
+msgstr "Untuk Dipasang"
+
+#: ../src/widgets/basket.py:69 ../data/lsc.ui.h:32
+msgid "Version"
+msgstr "Versi"
+
+#: ../src/widgets/screenshot.py:40
+msgid "Submit a screenshot"
+msgstr "Hantar cakupan skrin"
+
+#: ../src/widgets/searchentry.py:31 ../src/widgets/searchentry.py:34
+msgid "Search a package..."
+msgstr "Gelintar pakej..."
+
+#: ../data/lsc.ui.h:1
+msgid "Copyright © 2011 Lubuntu team"
+msgstr "Hakcipta © 2011 pasukan Lubuntu"
+
+#: ../data/lsc.ui.h:2
+msgid "Software Center for the Lubuntu project"
+msgstr "Pusat Perisian untuk projek Lubuntu"
+
+#: ../data/lsc.ui.h:3
+msgid ""
+"Sometimes, when you remove an application, the config files remains. Click "
+"on this button to remove the old config files"
+msgstr ""
+"kadangkala, bila anda membuang aplikasi, fail konfig masih kekal. Klik "
+"butang ini untuk membuang fail konfig lama."
+
+#: ../data/lsc.ui.h:4
+msgid ""
+"Some applications needs other packages to work, when you remove these "
+"applications the other packages aren't removed. Click on this button to "
+"remove the unused packages"
+msgstr ""
+"Ada aplikasi memerlukan pakej lain untuk berfungsi, bila anda membuang "
+"aplikasi ini pakej lain tidak dibuang. Klik butang ini untuk membuang pakej "
+"yang tidak digunakan"
+
+#: ../data/lsc.ui.h:5
+msgid ""
+"When you install an application, the files needed for the installation are "
+"downloaded locally. Click on this button to remove the unuseful downloaded "
+"packages"
+msgstr ""
+"Bila anda pasang aplikasi, fail diperlukan akan dimuat turun secara "
+"setempat. Klik butang ini untuk membuang pakej muat turun yang tidak "
+"diperlukan"
+
+#: ../data/lsc.ui.h:6
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/lsc.ui.h:7
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../data/lsc.ui.h:8 ../data/preferences.ui.h:17
+msgid "Software Properties"
+msgstr "Sifat Perisian"
+
+#: ../data/lsc.ui.h:9
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../data/lsc.ui.h:10
+msgid "Home"
+msgstr "Rumah"
+
+#: ../data/lsc.ui.h:13
+msgid "Clean Disk"
+msgstr "Bersihkan Cakera"
+
+#: ../data/lsc.ui.h:15
+msgid ""
+"Update the programs list. Clicking on this\n"
+"button, the updated softwares list will be\n"
+"downloaded"
+msgstr ""
+"Kemaskini senaria program. Klik pada\n"
+"butang ini, senarai perisian terkemaskini\n"
+"akan dimuat turunkan"
+
+#: ../data/lsc.ui.h:18
+msgid "Update"
+msgstr "Kemaskini"
+
+#: ../data/lsc.ui.h:19 ../data/preferences.ui.h:7
+msgid "Preferences"
+msgstr "Keutamaan"
+
+#: ../data/lsc.ui.h:20
+msgid "calculating packages..."
+msgstr "mengira pakej..."
+
+#: ../data/lsc.ui.h:21
+msgid "page 1"
+msgstr "halaman 1"
+
+#: ../data/lsc.ui.h:22
+msgid "column"
+msgstr "lajur"
+
+#: ../data/lsc.ui.h:23
+msgid ""
+"                            No packages found\n"
+"Do you want you search all categories instead?"
+msgstr ""
+"                            Tiada pakej ditemui\n"
+"Anda hendak gelintar semua kategori?"
+
+#: ../data/lsc.ui.h:25
+msgid "No package matches"
+msgstr "Tada pakej sepadan"
+
+#: ../data/lsc.ui.h:26
+msgid "page 2"
+msgstr "halaman 2"
+
+#: ../data/lsc.ui.h:27
+msgid "page 3"
+msgstr "halaman 3"
+
+#: ../data/lsc.ui.h:28
+msgid "Mb to download"
+msgstr "Mb untuk dimuat turun"
+
+#: ../data/lsc.ui.h:29
+msgid "Install the packages"
+msgstr "Pasang pakej"
+
+#: ../data/lsc.ui.h:31
+msgid "Download size"
+msgstr "Saiz muat turun"
+
+#: ../data/lsc.ui.h:33
+msgid "Remove <package> from the Apps Basket"
+msgstr "Buang <package> dari Bakul Aplikasi"
+
+#: ../data/lsc.ui.h:34
+msgid "Page 4"
+msgstr "Halaman 4"
+
+#: ../data/lsc.ui.h:35
+msgid "label"
+msgstr "label"
+
+#: ../data/lsc.ui.h:36
+msgid "button"
+msgstr "butang"
+
+#: ../data/lsc.ui.h:37
+msgid ""
+"                 No Screenshot Found\n"
+"Please check your Internet connection"
+msgstr ""
+"                 Tiada Cekupan Skrin Ditemui\n"
+"Sila semak sambungan Internet anda"
+
+#: ../data/lsc.ui.h:39
+msgid "Click to maximize"
+msgstr "Klik untuk maksimumkan"
+
+#: ../data/lsc.ui.h:40
+msgid "page 5"
+msgstr "halaman 5"
+
+#: ../data/lsc.ui.h:42
+msgid "No config files found"
+msgstr "Tiada fail konfig ditemui"
+
+#: ../data/lsc.ui.h:43
+msgid "Old configuration files"
+msgstr "Fail konfigurasi lama"
+
+#: ../data/lsc.ui.h:44
+msgid "No downloaded files found"
+msgstr "Tiada fail muat turun ditemui"
+
+#: ../data/lsc.ui.h:45
+msgid "Downloaded Packages"
+msgstr "Pakej Dimuat Turun"
+
+#: ../data/lsc.ui.h:46
+msgid "Clean up your disk"
+msgstr "Bersihkan cakera anda"
+
+#: ../data/lsc.ui.h:47
+msgid "Clean root trash"
+msgstr "Bersihkan sampah root"
+
+#: ../data/lsc.ui.h:48
+msgid ""
+"The trash of the root user (located in /root)\n"
+"can be full of old and unuseful files, cleaning\n"
+"it often results in quite a gain in available disk space"
+msgstr ""
+
+#: ../data/lsc.ui.h:51
+msgid "Clean thumbnails cache"
+msgstr "Bersihkan cache thumbnail"
+
+#: ../data/lsc.ui.h:52
+msgid ""
+"When you open a folder with images,\n"
+"the thumbnails are dynamically created\n"
+"and saved in a hide folder in your home.\n"
+"Click here to clean this folder (this won't\n"
+"delete important files)"
+msgstr ""
+
+#: ../data/lsc.ui.h:57
+msgid "Clean Configuration"
+msgstr "Bersihkan Konfigurasi"
+
+#: ../data/lsc.ui.h:58
+msgid "Clean Cache"
+msgstr "Bersihkan Cache"
+
+#: ../data/lsc.ui.h:59
+msgid "Save Disk Space"
+msgstr "Simpan Ruang Cakera"
+
+#: ../data/lsc.ui.h:60
+msgid "page 6"
+msgstr "halaman 6"
+
+#: ../data/preferences.ui.h:1
+msgid "Beginner Mode"
+msgstr "Mod Pengguna Baru"
+
+#: ../data/preferences.ui.h:3
+msgid "Icons only"
+msgstr "Ikon sahaja"
+
+#: ../data/preferences.ui.h:4
+msgid "Text only"
+msgstr "Teks sahaja"
+
+#: ../data/preferences.ui.h:5
+msgid "Text below icons"
+msgstr "Teks di bawah ikon"
+
+#: ../data/preferences.ui.h:6
+msgid "Text beside icons"
+msgstr "Teks bersebelahan ikon"
+
+#: ../data/preferences.ui.h:9
+msgid "Mode of visualization"
+msgstr "Mod pengvisualan"
+
+#: ../data/preferences.ui.h:10
+msgid ""
+"Choose the mode you want, in Beginner Mode are listed only the real "
+"applications, in Expert Mode are listed all the packages included libraries "
+"and command-line tools."
+msgstr ""
+"Pilih mod yang anda ingini, dalam Mod Pengguna Baru hanya disenariakan "
+"aplikasi sebenar, dalam Mod Mahir semua pakej disenaraikan termasuklah "
+"pustaka dan alatan baris-perintah."
+
+#: ../data/preferences.ui.h:11
+msgid "Use the packages database"
+msgstr "Guna pangkalan data pakej"
+
+#: ../data/preferences.ui.h:12
+msgid "Interface"
+msgstr "Antaramuka"
+
+#: ../data/preferences.ui.h:13
+msgid "ToolBar Style"
+msgstr "Gaya Palang Alat"
+
+#: ../data/preferences.ui.h:14
+msgid "Choose the ToolBar style"
+msgstr "Pilih gaya Palang Alat"
+
+#: ../data/preferences.ui.h:15
+msgid "Show MenuBar"
+msgstr "Papar Palang Menu"
+
+#: ../data/preferences.ui.h:16
+msgid "Show StatusBar"
+msgstr "Papar Palang Status"
+
+#: ../data/categories.ini.in .h:1
+msgid "Utilities"
+msgstr "Utiliti"
+
+#: ../data/categories.ini.in .h:2
+msgid "Universal Access"
+msgstr "Capaian Universal"
+
+#: ../data/categories.ini.in .h:3
+msgid "Audio & Video"
+msgstr "Audio & Video"
+
+#: ../data/categories.ini.in .h:4
+msgid "Games"
+msgstr "Permainan"
+
+#: ../data/categories.ini.in .h:5
+msgid "Graphic"
+msgstr "Grafik"
+
+#: ../data/categories.ini.in .h:6
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/categories.ini.in .h:7
+msgid "Education"
+msgstr "Pendidikan"
+
+#: ../data/categories.ini.in .h:8
+msgid "Science & Engineering"
+msgstr "Sains & Kejuruteraan"
+
+#: ../data/categories.ini.in .h:9
+msgid "System"
+msgstr "Sistem"
+
+#: ../data/categories.ini.in .h:10
+msgid "Developer Tools"
+msgstr "Alatan Pembangun"
+
+#: ../data/categories.ini.in .h:11
+msgid "Themes & Tweaks"
+msgstr "Tema & Tweak"
+
+#: ../data/categories.ini.in .h:12
+msgid "Fonts"
+msgstr "Fon"
+
+#: ../data/categories.ini.in .h:13
+msgid "Office"
+msgstr "Pejabat"
+
+#: ../data/categories.ini.in .h:14
+msgid "All"
+msgstr "Semua"
+
+#~ msgid ""
+#~ "Please install the package app-install-data, lubuntu software center will "
+#~ "not work in beginner mode without it"
+#~ msgstr ""
+#~ "Sila pasang package-install-data, pusat perisian lubuntu tidak akan "
+#~ "berfungsi dalam mod pengguna baru tanpanya"
+
+#~ msgid "Apps removed successfully"
+#~ msgstr "Aplikasi berjaya dibuang"
+
+#~ msgid "Apps installed successfully"
+#~ msgstr "Aplikasi berjaya dipasang"
+
+#~ msgid ""
+#~ "No connection found, you can't install \n"
+#~ " applications, however you can browse for them"
+#~ msgstr ""
+#~ "Tiada sambungan ditemui, anda tidak boleh \n"
+#~ " pasang aplikasi, namun anda boleh layar ia"
+
+#~ msgid ""
+#~ "The trash of the root user (located in /root)\n"
+#~ "can be full of old and unuseful files, cleaning\n"
+#~ "it often means a quite gain of disk space"
+#~ msgstr ""
+#~ "Sampah pengguna root (berada dalam /root)\n"
+#~ "boleh dipenuhi dengan fail lama dan tidak\\\n"
+#~ "digunakan, pembersihkannya bermaksud\n"
+#~ "dapat meningkatkan ruang cakera"
+
+#~ msgid ""
+#~ "When you open a folder with images,\n"
+#~ "the thumbnails are dinamically created\n"
+#~ "and saved in a hide folder in your home.\n"
+#~ "Click here to clean this folder (this won't\n"
+#~ "delete important files)"
+#~ msgstr ""
+#~ "Bila anda buka folder yang mengandungi\n"
+#~ "imej, thumbnail akan dicipta secara dinamik\n"
+#~ "dan disimpan dalam folder tesembunyi\n"
+#~ "dalam rumah anda. Klik disini untuk bersih\n"
+#~ "kan folder ini (ia tidak akan padam fail\n"
+#~ "yang penting)"
