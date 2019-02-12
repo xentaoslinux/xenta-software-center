@@ -1,7 +1,7 @@
 Source: xenta-software-center
 Section: python
 Priority: extra
-Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 Build-Depends: debhelper (>=9),
                autotools-dev,
                python (>= 2.6.6-3~),
@@ -9,8 +9,8 @@ Build-Depends: debhelper (>=9),
                libglib2.0-dev
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.7
-Homepage: https://github.com/xentaos/xenta-software-center
-Vcs-Browser: https://github.com/xentaos/xenta-software-center.git
+Homepage: https://github.com/xentaoslinux/xenta-software-center
+Vcs-Browser: https://github.com/xentaoslinux/xenta-software-center.git
 
 Package: xenta-software-center
 Architecture: all
