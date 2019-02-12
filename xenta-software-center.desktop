@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Xenta Software Center
 GenericName=Software Center
@@ -9,4 +10,3 @@ Type=Application
 Categories=PackageManager;GTK;System;Settings;
 StartupNotify=true
 Keywords=Sources;PPA;Install;Uninstall;Remove;Catalogue;Store;Apps;Light;Package;
-Name[en_US]=xenta-software-center.desktop

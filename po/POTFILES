@@ -1,0 +1,20 @@
+	../xenta-software-center.desktop.in \
+	../xenta-software-center \
+	../src/control.py \
+	../src/main.py \
+	../src/notify.py \
+	../src/preferences.py \
+	../src/threadingops.py \
+	../src/UI.py \
+	../src/widgets/appsinfo.py \
+	../src/widgets/appsview.py \
+	../src/widgets/basket.py \
+	../src/widgets/categories.py \
+	../src/widgets/pages.py \
+	../src/widgets/screenshot.py \
+	../src/widgets/searchentry.py \
+	../src/widgets/statusbox.py \
+	../src/widgets/toolbar.py \
+	../data/lsc.ui \
+	../data/preferences.ui \
+	../data/categories.ini.in 
