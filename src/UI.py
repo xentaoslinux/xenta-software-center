@@ -143,7 +143,7 @@ class Gui(Gtk.Window):
         self.about.set_comments(_(
             "Light but user-friendly Software Center for Xenta OS"))
         self.about.set_website(
-            "http://www.xentaos.org/")
+            "http://www.xentaos.com/")
         self.about.set_version(version)
         self.about.set_license(license)
         #-------------------------------------------------
