@@ -1,4 +1,10 @@
-xenta-software-center (1.3.3) batik; urgency=medium
+xenta-software-center (1.4.0) batik; urgency=medium
+
+  * Perbaikan Link manjadi www.xentaos.com
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Fri, 01 Mar 2019 16:10:49 +0700
+ 
+ xenta-software-center (1.3.3) batik; urgency=medium
 
   * Perbaikan Berkas debian/*
 
