@@ -1,3 +1,9 @@
+xenta-software-center (1.4.1+xentaos2) batik; urgency=medium
+
+  * Pengepakan paket buat rilis "batik" stable
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Wed, 06 Mar 2019 11:27:17 +0700 
+
 xenta-software-center (1.4.0) batik; urgency=medium
 
   * Perbaikan Link manjadi www.xentaos.com

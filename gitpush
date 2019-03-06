@@ -13,7 +13,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 package=xenta-software-center
-version="xenta-software-center (1.4.0)"
+version="xenta-software-center (1.4.1+xentaos2)"
 figlet $package
 echo " Set Remote... "
 git remote set-url origin git@github.com:xentaoslinux/$package.git
